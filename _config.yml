@@ -1,0 +1,51 @@
+host: 0.0.0.0
+url: "http://taig.io/"
+
+theme:
+  title: Taig
+  avatar: avatar.png
+  gravatar: # Email MD5 hash
+  description: "Personal blog of Niklas Klein (Taig), mostly about Software Development, Scala and Android"
+
+  header_text: >
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text_feature_image:
+
+  rss: true
+  email_address: mail@taig.io
+  facebook:
+  github: "taig"
+  google_plus:
+  stack_exchange:  # Full URL
+  tumblr:
+  twitter: "ttaig"
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true
+
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  post_navigation: false
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
