@@ -1,0 +1,10 @@
+#!/bin/bash
+
+case "$1" in
+    "develop")
+        docker run --rm -v "$(pwd):/src" -p 4000:4000 blog serve 
+    ;;
+    *)
+        docker run --rm -v "$(pwd):/src" blog build 
+    ;;
+esac

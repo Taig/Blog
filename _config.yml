@@ -16,11 +16,11 @@ theme:
   rss: true
   email_address: mail@taig.io
   facebook:
-  github: "taig"
+  github: taig
   google_plus:
-  stack_exchange:  # Full URL
-  tumblr:
-  twitter: "ttaig"
+  stack_exchange: http://stackexchange.com/users/1615420/taig
+  tumblr: kulturschoki
+  twitter: tttaig
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
